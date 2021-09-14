@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import BoxContainer from "./components/BoxContainer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="container">
+      <BoxContainer />
+
+      <div className="author__info">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Brought to you by{" "}
+          <a
+            href="https://github.com/BeGeos "
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            BeGeos
+          </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }

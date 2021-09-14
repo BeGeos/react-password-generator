@@ -3,9 +3,9 @@
 A simple password generator with some cool styling and background. Inspired by nature and **100daysofCoding**
 This is the first project using ReactJS. Main components include:
 
-- Form - to compile the complexity of the passwordù
+- Form - to compile the complexity of the password
 - Trivia - A simple popup for some information about passwords and password security
-- BoxConteiner - The main box for all the elements
+- BoxContainer - The main box for all the elements
 - Password - The container for the randomly generated password
 
 All together a simple but fun project. Security is important and sometimes complying with websites' guidelines for passwords is not easy.
